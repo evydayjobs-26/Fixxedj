@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Fixxedj",
+    "slug": "fixxedj-customer",
+    "version": "1.0.0",
+    "scheme": "fixxedj",
+    "platforms": ["ios", "android"],
+    "ios": { "bundleIdentifier": "com.fixxedj.customer" },
+    "android": { "package": "com.fixxedj.customer" },
+    "plugins": ["expo-router", "expo-location", "expo-camera"]
+  }
+}

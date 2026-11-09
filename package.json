@@ -1,0 +1,13 @@
+{
+  "name": "fixxedj",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:backend": "cd backend && uvicorn app.main:app --reload",
+    "dev:customer": "cd apps/customer-app && npx expo start",
+    "dev:worker": "cd apps/worker-app && npx expo start",
+    "dev:admin": "cd apps/admin-web && npm run dev",
+    "lint": "eslint apps/*/src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  }
+}

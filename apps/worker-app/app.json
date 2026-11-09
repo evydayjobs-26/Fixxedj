@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Fixxedj Worker",
+    "slug": "fixxedj-worker",
+    "version": "1.0.0",
+    "scheme": "fixxedjworker",
+    "platforms": ["ios", "android"],
+    "ios": { "bundleIdentifier": "com.fixxedj.worker" },
+    "android": { "package": "com.fixxedj.worker" },
+    "plugins": ["expo-router", "expo-location", "expo-camera"]
+  }
+}
